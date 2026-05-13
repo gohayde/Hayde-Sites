@@ -1,5 +1,0 @@
-{
-  "name": "Firefly_Cinematic_Hero",
-  "prompt": "Build a centered hero section with a dark cinematic aesthetic. Use a full-screen background image or video with a heavy gradient overlay (top and bottom dark). The typography should be bold, uppercase, and sans-serif (tracking-tighter for headers). Navigation should be a transparent sticky bar with a white border-based 'Ghost' button for the CTA. Include a vertical line scroll indicator at the bottom center. Use Tailwind CSS for all styling.",
-  "preview": ""
-}

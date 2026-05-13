@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Website Printer Module Preview
 
-# Run and deploy your AI Studio app
+This repo now hosts a Vite preview shell for the portable Website Printer module.
 
-This contains everything you need to run your app locally.
+The module intended for Agency OS lives at:
 
-View your app in AI Studio: https://ai.studio/apps/69809c89-d58a-4f92-8eaf-91506b56ecf8
+```text
+src/modules/website-printer
+```
 
-## Run Locally
+## Local Preview
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+npm run typecheck
+npm run build
+```
 
+## Agency OS Merge Notes
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Copy `src/modules/website-printer` into the main dashboard at the same path.
+- Replace `LocalWebsitePrinterRepository` with a Supabase-backed implementation that satisfies `WebsitePrinterRepository`.
+- Wire `WebsitePrinterPage` into the protected route shell and module registry.
+- Replace `src/app/module-preview.css` with the dashboard Tailwind/design-system styling.
+- Keep Company Spy server-side only; do not expose provider keys in browser code.
