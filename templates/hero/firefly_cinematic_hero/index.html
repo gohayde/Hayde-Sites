@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.8) 100%); }
+    </style>
+</head>
+<body class="antialiased bg-black text-white">
+    <nav class="fixed top-0 w-full z-50 flex items-center justify-between px-6 py-4 md:px-12 md:py-6 bg-transparent transition-all duration-300">
+        <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 bg-white rounded-sm flex items-center justify-center">
+                <span class="text-black font-extrabold text-xs">FF</span>
+            </div>
+            <span class="text-xl font-bold tracking-tighter uppercase">Firefly</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide uppercase opacity-80">
+            <a href="#" class="hover:opacity-100 transition-opacity">Products</a>
+            <a href="#" class="hover:opacity-100 transition-opacity">Technology</a>
+            <a href="#" class="hover:opacity-100 transition-opacity">Support</a>
+            <a href="#" class="hover:opacity-100 transition-opacity">Contact</a>
+        </div>
+        <div>
+            <a href="#" class="px-5 py-2 border border-white/30 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">Store</a>
+        </div>
+    </nav>
+    <section class="relative h-screen w-full overflow-hidden flex items-center justify-center">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=2070" alt="Background" class="w-full h-full object-cover grayscale-[0.2]">
+            <div class="absolute inset-0 bg-overlay"></div>
+        </div>
+        <div class="relative z-10 container mx-auto px-6 text-center max-w-4xl">
+            <div class="space-y-6">
+                <h1 class="text-4xl md:text-7xl font-extrabold uppercase tracking-tighter leading-none">Professional Wireless <br class="hidden md:block"> <span class="text-white/80">Lighting Effects</span></h1>
+                <p class="text-lg md:text-xl text-white/60 font-light max-w-2xl mx-auto leading-relaxed">Revolutionary battery-powered lighting fixtures designed for the world's most demanding film sets and events.</p>
+                <div class="flex flex-col md:flex-row items-center justify-center gap-4 pt-8">
+                    <button class="w-full md:w-auto px-8 py-4 bg-white text-black font-bold uppercase tracking-widest text-sm rounded-sm hover:bg-gray-200 transition-colors">Explore Products</button>
+                    <button class="w-full md:w-auto px-8 py-4 bg-transparent border border-white/50 text-white font-bold uppercase tracking-widest text-sm rounded-sm hover:bg-white/10 transition-colors">Watch Reel</button>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-2 opacity-50">
+            <span class="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
+            <div class="w-px h-12 bg-gradient-to-b from-white to-transparent"></div>
+        </div>
+    </section>
+</body>
+</html>

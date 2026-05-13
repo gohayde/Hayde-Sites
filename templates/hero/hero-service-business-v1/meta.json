@@ -1,0 +1,5 @@
+{
+  "name": "Hero_Service_Business_V1",
+  "prompt": "Build a robust, left-aligned hero section specifically designed for local service businesses. It must feature a full-bleed background image with a strong, dark gradient overlay to ensure text readability. The typography should utilize a bold sans-serif font (like Poppins) with an uppercase primary headline that commands attention. Include a concise subheadline, a vertical list of trust-building bullet points featuring solid circle icons, and two high-contrast call-to-action buttons (one primary solid, one outline) stacked on mobile but side-by-side on desktop. Ensure the design relies on precise padding and margin utility classes for layout spacing.",
+  "preview": ""
+}

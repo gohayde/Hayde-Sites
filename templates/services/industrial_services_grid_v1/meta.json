@@ -1,0 +1,5 @@
+{
+  "name": "Industrial_Services_Grid_V1",
+  "prompt": "Build a responsive service grid section for a technical contractor using Tailwind CSS. Use a light gray background (#F9FAFB) with white cards. Include a header with a small orange badge, a bold dark navy heading, and an orange accent line. The grid should be 3 columns on desktop with cards featuring FontAwesome icons in blue-tinted boxes that flip to solid blue on hover. Cards should have a subtle shadow that deepens and translates upward on hover. Each card needs a heading, descriptive paragraph, and an orange 'Learn More' link with an arrow. End with a prominent centered orange CTA button.",
+  "preview": ""
+}
